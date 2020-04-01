@@ -4,10 +4,11 @@ namespace GitExercise
     {
         private string navn;
         private string adresse;
-        private int postnr;
-        public myClass(string navn)
+        private int postnr = 4500;
+        public myClass(string navn,string adresse)
         {
             this.Navn = navn;
+            this.Adresse = adresse;
         }
         public string Navn { get => navn; set => navn = value; }
         public string Adresse { get => adresse; set => adresse = value; }
