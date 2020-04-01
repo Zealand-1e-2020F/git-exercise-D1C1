@@ -12,5 +12,9 @@ namespace GitExercise
         public string Navn { get => navn; set => navn = value; }
         public string Adresse { get => adresse; set => adresse = value; }
         public int Postnr { get => postnr; set => postnr = value; }
+
+        public override string ToString(){
+            return $"{Navn} bor på {Adresse},{Postnr}";
+        }
     }
 }
