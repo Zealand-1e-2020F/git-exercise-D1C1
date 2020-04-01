@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace GitExercise
 {
     class Program
@@ -11,8 +10,6 @@ namespace GitExercise
             myClass myclass = new myClass("Bent");
             myClass myClass1 = new myClass("Børge");
             myClass myClass2 = new myClass("Lasse");
-
-
         }
     }
 }
