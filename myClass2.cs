@@ -1,4 +1,4 @@
-namespace git_exercise_D1C1
+namespace GitExercise
 {
     public class myClass2
     {
